@@ -1,0 +1,63 @@
+[
+  {
+    "title": "1953 Cheverolet One Fifty",
+    "description": "This cute 2 door car has a roomy interior and seats 6! This ride is powered by a 3.5-liter inline-six engine that produces 115 horsepower and 205 lb-ft of torque. It is paired with a three-speed manual transmission and rear-wheel drive.",
+    "price": "200.00",
+    "image": "1953_Chev_One_Fifty"
+  },
+  {
+    "title": "1967 Cadillac Coupe deVille",
+    "description": "powerful, stylish, and luxurious car that embodies the spirit of American muscle cars. Seat 6 in its roomy interior. THe engine is a 429 cubic inch V8 producing 340 horsepower and 480 lb-ft of torque. Its paired with a three-speed automatic transmission.",
+    "price": "300.00",
+    "image": "1967_Caddy_deVille"
+  },
+  {
+    "title": "1964 Ford Mustang",
+    "description": "This is the first year the ford mustang debuted. It contains a 289 cubic inch V8 and produces up to 271 horsepower. It became an iconic American muscle car ",
+    "price": "350.00",
+    "image": "1964_Ford_Mustang"
+  },
+  {
+    "title": "1972 Jaguar XJ6",
+    "description": "the 1972 Jaguar XJ6 is a stylish and luxurious sedan that offers a combination of performance, comfort, and refinement. Comfortably seats up to 5",
+    "price": "300.00",
+    "image": "1972_Jaguar_XJ6"
+  },
+  {
+    "title": "1967 Chevy Corvette",
+    "description": "Known for its powerful engine, sleek styling, and outstanding performance! This car is equiped with a 327 cubic inch V8 engine and produces 300 horsepower",
+    "price": "290.00",
+    "image": "1967_Chevy_Corvette"
+  },
+  {
+    "title": "1941 Ford Model 18",
+    "description": "This stylish car is known for its smooth ride and comfortable interior. Bench seats accomodate up to 6 people",
+    "price": "350",
+    "image": "1941_Ford_Model18"
+  },
+  {
+    "title": "1973 volkswagen beetle",
+    "description": "This is the last year of the original beetle design. It is a classic with a cult following ",
+    "price": "180.00",
+    "image": "1973_wagen_beetle"
+  },
+  {
+    "title": "1970 Chevrolet Chevelle SS",
+    "description": "This ride has a 6.5-liter (396 cubic inch) V8 engine and produces 350 horsepower and 415 lb-ft of torque. It can go from 0 to 60 mph in 6.5 seconds",
+    "price": "220.00",
+    "image": "1970_Chevy_Chevelle"
+  },
+  {
+    "title": "1958 Chevy Apache",
+    "description": "The 1958 Chevy Apache is a classic pickup truck as part of the Task Force series of trucks that was introduced by Chevrolet in 1955 ",
+    "price": "180",
+    "image": "1958_Chevy_Apache"
+  },
+  {
+    "title": "1967 Dodge Charger",
+    "description": "This car has a 426 cubic inch Hemi V8 engine. The Hemi engine is the most powerful option at the time, producing 425 horsepower.",
+    "price": "320.00",
+    "image": "1967_Dodge_Charger"
+  }
+  
+]

@@ -1,0 +1,35 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+  z-index: 2;
+  background-color: rgba(223, 221, 221, 0.8);
+}
+
+form {
+  margin: 50px;
+}
+
+.member-signup {
+  padding: 5px;
+  background-color: rgb(237, 232, 232);
+  border: 2px solid black;
+  color: black;
+  margin-left: 65px;
+}
+
+.font {
+  font-size: 20px;
+}
+
+
+
+.sign-in {
+  background-color: rgb(237, 232, 232);
+  color: black;
+  padding: 5px;
+  border: 2px solid black;
+}

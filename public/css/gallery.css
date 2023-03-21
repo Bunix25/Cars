@@ -1,0 +1,75 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+}
+
+
+#h2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+
+}
+
+img {
+    width: 100%;
+    border-bottom: 1px solid grey;
+
+}
+
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgb(227, 224, 224);
+    margin: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(45, 45, 41);
+    color: white;
+
+}
+
+.fleet-container {
+    margin-bottom: 50px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+a {
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(227, 224, 224);
+}
+
+#a-tag {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .float-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fleet-container {
+        width: 40%;
+        margin: 20px;
+    }
+
+}

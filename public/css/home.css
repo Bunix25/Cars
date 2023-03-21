@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+img {
+    width: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 9%;
+    height: 10%;
+    top: 50%;
+    color: black;
+}
+
+#flex {
+    display: flex;
+    margin-top: 10px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.carousel-inner {
+    margin: auto;
+}
+
+
+
+/*carousel css*/
+
+#carouselExample {
+    margin: 0 auto;
+    margin-top: 100px;
+
+
+}
+
+
+
+
+
+/*welcome message css*/
+
+
+
+/*#welcome-message {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin-top: 75px;
+
+    display: flex;
+}*/
+
+
+
+h2 {
+    margin-left: 55px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+
+
+#a-tag:hover {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(227, 224, 224);
+    border: 2px solid white;
+}
+
+#a-tag {
+    text-decoration: none;
+    color: white;
+
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(227, 224, 224);
+
+    font-size: 20px;
+
+}
+
+#title {
+    color: white;
+}

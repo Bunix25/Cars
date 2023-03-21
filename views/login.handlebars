@@ -1,0 +1,51 @@
+<form class="form login-form">
+    <div class="mb-3 row">
+        <label for="email-login" class=" font col-sm-2 col-form-label ">Email</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="email-login" placeholder="email@example.com">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="password-login" class=" font col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="password-login">
+        </div>
+    </div>
+    <button type="submit" class=" btn btn-secondary sign-in">Sign
+        in</button>
+</form>
+
+<button type="button" class="btn btn-secondary member-signup" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Not a member yet? Sign up for free!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form signup-form" id="signupForm">
+                <div class="form-group">
+                    <label for="email-signup">email:</label>
+                    <input class="form-input" type="text" id="email-signup" />
+                </div>
+                <div class="form-group">
+                    <label for="name-signup">name:</label>
+                    <input class="form-input" type="" id="name-signup" />
+                </div>
+                <div class="form-group">
+                    <label for="password-signup">password:</label>
+                    <input class="form-input" type="" id="password-signup" />
+                </div>
+                <div class="form-group">
+                    <label for="phone-signup">phone:</label>
+                    <input class="form-input" type="" id="phone-signup" />
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" id="signUp">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../js/login.js"></script>

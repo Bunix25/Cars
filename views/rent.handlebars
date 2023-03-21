@@ -1,0 +1,97 @@
+<!-- Mobiscroll JS and CSS Includes -->
+<link rel="stylesheet" href="../css/mobiscroll.javascript.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/mobiscroll.javascript.min.js"></script>
+
+<style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #book {
+        display: inline-block;
+        margin: 5px 5px 0 0;
+        padding: 10px 30px;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        background: #5185a8;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial, verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    input {
+        width: 100%;
+        margin: 0 0 5px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        font-family: arial, verdana, sans-serif;
+        font-size: 14px;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+    }
+
+    .mbsc-page {
+        padding: 1em;
+    }
+</style>
+
+<body>
+    <div class="row">
+        <div class="column-one">
+            <div id="imageWrapper"><img id="carImage" src="/images/{{cars.image}}.jpg"></div>
+            <div mbsc-page class="demo-date-range">
+                <div style="height:100%">
+                    <div id="demo-calendar"></div>
+                    <div id="demo-date"></div>
+                    <div id="demo-range-presets"></div>
+                    <label>
+                        Pick your dates!
+                        <input id="demo-one-input" mbsc-input data-input-style="outline" data-label-style="stacked"
+                            placeholder="Please select..." />
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-two">
+            <h3>{{cars.title}}</h3>
+            <h4>{{cars.description}}</h4>
+            <h4 id="note">Please Note: Check out time is 2PM, Check in time is 11AM</h4>
+            <h3 id="price">Price per Day ${{cars.price}}</h3>
+            <h4 id="totalPrice"><br></h4>
+            <button id="book"> Reserve Now!</button>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <h2>Reservation Confirmation</h2>
+                <p>Details of your reservation have been sent, thank you for choosing our car rental service!
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        mobiscroll.setOptions({
+            locale: mobiscroll.localeEn,  // Specify language like: locale: mobiscroll.localePl or omit setting to use default
+            theme: 'ios',                 // Specify theme like: theme: 'ios' or omit setting to use default
+            themeVariant: 'light'         // More info about themeVariant: https://docs.mobiscroll.com/5-22-2/javascript/range#opt-themeVariant
+        });
+
+
+        mobiscroll.datepicker('#demo-one-input', {
+            controls: ['calendar'],       // More info about controls: https://docs.mobiscroll.com/5-22-2/javascript/range#opt-controls
+            select: 'range',               // More info about select: https://docs.mobiscroll.com/5-22-2/javascript/range#methods-select
+            autocorrect: 'false',
+            min: new Date(2023, 2, 21),
+        });
+
+    </script>
+    <script src="../js/rent.js"></script>
